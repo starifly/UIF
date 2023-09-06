@@ -1,0 +1,68 @@
+project_name: uif
+builds:
+  - id: Build uif others
+    main: ./
+    targets:
+      - darwin_amd64_v1
+      - linux_amd64_v1
+  - id: Build uif windows
+    main: ./
+    ldflags:
+      - -H=windowsgui
+    targets:
+      - windows_amd64_v1
+archives:
+  - id: Compress Archives
+    format: tar.gz
+    format_overrides:
+      - goos: windows
+        format: zip
+    wrap_in_directory: true
+    files:
+      - src: "./web_dist/*/"
+        dst: "./web/"
+      - src: "./core/{{ .Os }}/{{ .Arch }}/**/"
+        dst: "./core/"
+      - src: "./geoip.db"
+        dst: "geoip.db"
+      - src: "./geosite.db"
+        dst: "geosite.db"
+    name_template: '{{ .ProjectName }}-{{ .Os }}-{{ .Arch }}{{ with .Arm }}v{{ . }}{{ end }}{{ with .Mips }}_{{ . }}{{ end }}{{ if not (eq .Amd64 "v1") }}{{ .Amd64 }}{{ end }}'
+
+nfpms:
+  - id: package
+    package_name: uif
+    file_name_template: '{{ .ProjectName }}-{{ .Os }}-{{ .Arch }}{{ with .Arm }}v{{ . }}{{ end }}{{ with .Mips }}_{{ . }}{{ end }}{{ if not (eq .Amd64 "v1") }}{{ .Amd64 }}{{ end }}'
+    vendor: uiforfreedom
+    homepage: https://github.com/UIforFreedom/UIF
+    formats:
+      - deb
+      - rpm
+    priority: extra
+    bindir: "/usr/bin/uif/"
+    contents:
+      - src: "./web_dist/*"
+        dst: "/usr/bin/uif/web"
+
+      - src: "./core/{{ .Os }}/{{ .Arch }}/**/"
+        dst: "/usr/bin/uif/core/"
+      - src: "./geoip.db"
+        dst: "/usr/bin/uif/geoip.db"
+      - src: "./geosite.db"
+        dst: "/usr/bin/uif/geosite.db"
+
+      - src: "./uif.service"
+        dst: "/etc/systemd/system/uif.service"
+
+release:
+  github:
+    owner: UIforFreedom
+    name: UIF
+  name_template: "{{ .Version }}"
+  # draft: true
+  mode: replace
+
+source:
+  enabled: false
+checksum:
+  disable: true

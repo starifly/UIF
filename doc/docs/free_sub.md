@@ -1,0 +1,48 @@
+---
+sidebar_position: 4
+---
+
+# 免费订阅
+
+:fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire:
+
+UIF 收集互联网上的免费订阅，每小时更新测试并发布。
+
+最后一次更新：2023年8月8日00:03:38
+
+## 订阅
+
+### 链接
+
+订阅链接可能会被屏蔽。
+
+#### ① V2rayN 格式
+
+- https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+
+#### ② Clash 格式
+
+- https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+
+### 原始数据
+
+跟订阅链接内容一致。
+
+由于链接会被屏蔽，直接复制粘贴原始到UIF，也可以正确导入代理服务器。缺点就是手动复制。
+
+#### ① V2rayN 格式
+
+```
+vmess://eyJhZGQiOiAiY2RuLmNoaWd1YS50ayIsICJhaWQiOiAwLCAiaG9zdCI6ICJ1czYuY2FjaGV4eS5jZiIsICJpZCI6ICI3ZTdmODM5OC1iZDM5LTQ5ZDgtOWNlNi1lNDhmZmVmNDYzZGQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLzJUb2tHRTlBLyIsICJwb3J0IjogODAsICJwcyI6ICJcdTdmOGVcdTU2ZmQgXHU1MmEwXHU1MjI5XHU3OThmXHU1YzNjXHU0ZTlhXHU1ZGRlXHU1NzIzXHU1MTRiXHU2MmM5XHU2MmM5XHU5NjNmXHU5MWNjXHU0ZTkxIiwgInRscyI6ICIiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIn0=
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkoc2hvcGlmeSkiLCAiYWRkIjogImRvbmd0YWl3YW5nMi5jb20iLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiMjVhOWYzYjktMWU2ZC00MGJkLTk2OGItZTA4MThjMWIxOTZmIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIyLmZyZWVrMS54eXoiLCAicGF0aCI6ICIvZG9uZ3RhaXdhbmcuY29tIiwgInRscyI6ICJ0bHMiLCAic25pIjogIiIsICJhbHBuIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTUxNmNcdTUzZjhDRE5cdTgyODJcdTcwYjkoc2hvcGlmeSkiLCAiYWRkIjogImRvbmd0YWl3YW5nMi5jb20iLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiMjVhOWYzYjktMWU2ZC00MGJkLTk2OGItZTA4MThjMWIxOTZmIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICIyLmZyZWVrMS54eXoiLCAicGF0aCI6ICIvZG9uZ3RhaXdhbmcuY29tIiwgInRscyI6ICJ0bHMiLCAic25pIjogIiJ9
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHU3ZjhlXHU1NmZkIENsb3VkRmxhcmVcdTgyODJcdTcwYjkiLCAiYWRkIjogImNkbi5uYXJ1dG9zLnRvcCIsICJwb3J0IjogIjg4ODAiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjRiNWU0NTY1LTMyMmYtNDIyMy1hODkxLTc4YTg0ZjE4OTcyNiIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvR2R0WVdsc0xtTnZiU0o5TENKamIzViIsICJob3N0IjogIm5ld3lvcmsueWoyMDIyLmdxIiwgInRscyI6ICIifQ==
+```
+
+#### ② Clash 格式
+
+- https://ghproxy.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+
+## 安全注意
+
+由于免费代理服务器收集于互联网，并不由 UIF 提供，使用这些来源不明的服务器，可能会导致信息泄露等安全问题。
